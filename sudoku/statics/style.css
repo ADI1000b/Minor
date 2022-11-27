@@ -152,6 +152,7 @@ li > input[type='checkbox']:checked ~ ul li.active{
 
 .slider {
     -webkit-appearance: none;
+    appearance: none;
     width: 10%;
     margin: 0 auto;
     height: 7px;
@@ -181,6 +182,7 @@ li > input[type='checkbox']:checked ~ ul li.active{
 
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
+    appearance: none;
     width: 20px;
     height: 20px;
     position: relative;
@@ -193,6 +195,7 @@ li > input[type='checkbox']:checked ~ ul li.active{
 
 .slider::-webkit-slider-runnable-track {
     -webkit-appearance: none;
+    appearance:none;
     height: 15px;
     width: 15px;
     z-index: 1;
