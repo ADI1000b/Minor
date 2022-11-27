@@ -142,11 +142,11 @@ li > input[type='checkbox']:checked ~ ul li.active{
 
 .slider-container {
     position: absolute;
-    left: 53.5em;
+    left: 53.5rem;
     width: 100%;
     /* text-align: center; */
     margin: 0 auto;
-    top: 15em;
+    top: 15rem;
     /* border: 2px solid red; */
   }
 
