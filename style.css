@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Lora&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: white;
+  font-family: 'Lora', serif;
+}
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(69, 26, 109);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  font-size: 4rem;
+  font-family: 'Barriecito', cursive;
+  margin-bottom: 2rem;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 59% 70%, 50% 100%, 39% 70%, 0 70%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 59% 70%, 50% 100%, 39% 70%, 0 70%);
+}
+
+.insert {
+  margin: 0 auto;
+  border: 2px dashed #2E3F51;
+  width: 35%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+label {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.fas {
+  font-size: 1rem;
+  margin-right: .4rem;
+}
+
+.buttonSpace {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.buttonSpace button {
+  margin-top: .6rem;
+  border-radius: 10px;
+  display: inline-block;
+  padding: .5rem 4rem;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+}
+#Sudoku {
+  transition: .3s;
+  background-color: rgb(69, 26, 109);;
+  color: #fff;
+  margin: 1rem 1rem;
+  padding: 2rem 2rem ;
+}
+#Sudoku a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+#Sudoku:hover {
+  border: 1px solid #53BD9C;
+  /* background-color: #fff; */
+  letter-spacing: .4rem;
+  color: #2E3F51;
+}
+#nqueen {
+    transition: .3s;
+    background-color: #2E3F51;
+    color: #fff;
+    margin: 1rem 1rem;
+    padding: 2rem 2rem ;
+  }
+  #nqueen a 
+  {
+    color: #fff;
+    text-decoration: none;
+  }
+  #nqueen:hover {
+    border: 1px solid #161717;
+    /* background-color: #fff; */
+    letter-spacing: .4rem;
+    color: #2E3F51;
+  }
+  #dijkstra {
+    transition: .3s;
+    background-color: rgb(69, 26, 109);
+    color: #fff;
+    margin: 1rem 1rem;
+    padding: 2rem 2rem ;
+  }
+  #dijkstra a 
+  {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #dijkstra:hover {
+    border: 1px solid #53BD9C;
+    /* background-color: #fff; */
+    letter-spacing: .4rem;
+    color: #2E3F51;
+  }
+
+
+
+footer {
+   
+  color: #2E3F51;  
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+/*  =============== . MEDIA QUERIES ============ */
+@media screen and (max-width: 992px) {
+  .insert {
+  width: 80%;
+}
+  label {
+    display: block;
+  }
+
+  #submit {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .insert {
+  width: 90%;
+}
+.buttonSpace button {
+  width: 90%;
+  display: inline-table;
+
+}
+}
