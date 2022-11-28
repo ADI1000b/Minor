@@ -97,6 +97,7 @@ button:hover {
   grid-row-gap: 5px;
   grid-column-gap: 5px;
   border: none;
+  margin-bottom: 5rem;
 }
 
 .ends {
