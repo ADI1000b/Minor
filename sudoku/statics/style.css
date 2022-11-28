@@ -14,9 +14,10 @@ body{
     flex-direction: column;
     justify-content: space-between;
     background:url('./soduku.jpg');
-    background-position: center; 
+    background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    background-attachment: fixed;
     color:#693f26;
     /*overflow: hidden;*/
 }
@@ -143,8 +144,8 @@ li > input[type='checkbox']:checked ~ ul li.active{
 .slider-container {
     position: relative;
     top: 20%;
-    left: 45%;
-    width: 100%;
+    /* left: 45%; */
+    width: 10%;
     /* text-align: center; */
     margin: 0 auto;
     margin-bottom: 20px;
@@ -155,7 +156,7 @@ li > input[type='checkbox']:checked ~ ul li.active{
 .slider {
     -webkit-appearance: none;
     appearance: none;
-    width: 10%;
+    width: 100%;
     margin: auto auto;
     height: 7px;
     border-radius: 7px;
