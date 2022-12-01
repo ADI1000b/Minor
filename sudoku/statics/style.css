@@ -13,12 +13,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background:url('./sudokuhome.jpg');
-    background-position: center center; 
-    background-repeat: no-repeat; 
+    background:url('./sudokuhome.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color:#693f26;
+    color:#000000;
     /*overflow: hidden;*/
 }
 
