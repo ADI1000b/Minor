@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background:url('./soduku.jpg');
+    background:url('./sodukuhome.jpg');
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover;
